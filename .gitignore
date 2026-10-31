@@ -1,0 +1,4 @@
+# build outputs, recreated by build.ps1
+/out/
+/native/build/
+/src/script/archon/native/bin_*.lua

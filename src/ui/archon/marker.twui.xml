@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<layout
+	version="137"
+	comment="Archon Mode: plain 22x22 avatar image used as the shared-faction marker on lobby lord tiles (modelled on MCT ui/groovy/image.twui.xml)"
+	precache_condition="">
+	<hierarchy>
+		<root this="A7C40E11-5B2D-4C8E-9A1F3D6B2E8C0501"/>
+	</hierarchy>
+	<components>
+		<root
+			this="A7C40E11-5B2D-4C8E-9A1F3D6B2E8C0501"
+			id="root"
+			allowhorizontalresize="true"
+			allowverticalresize="true"
+			priority="65"
+			tooltipslocalised="true"
+			uniqueguid="A7C40E11-5B2D-4C8E-9A1F3D6B2E8C0501"
+			currentstate="A7C40E11-5B2D-4C8E-9A1F3D6B2E8C0503"
+			defaultstate="A7C40E11-5B2D-4C8E-9A1F3D6B2E8C0503">
+			<componentimages>
+				<component_image
+					this="A7C40E11-5B2D-4C8E-9A1F3D6B2E8C0502"
+					uniqueguid="A7C40E11-5B2D-4C8E-9A1F3D6B2E8C0502"
+					imagepath="ui/skins/default/avatar_offline_small.png"/>
+			</componentimages>
+			<states>
+				<newstate
+					this="A7C40E11-5B2D-4C8E-9A1F3D6B2E8C0503"
+					name="NewState"
+					width="22"
+					height="22"
+					interactive="true"
+					disabled="true"
+					uniqueguid="A7C40E11-5B2D-4C8E-9A1F3D6B2E8C0503">
+					<imagemetrics>
+						<image
+							this="A7C40E11-5B2D-4C8E-9A1F3D6B2E8C0504"
+							uniqueguid="A7C40E11-5B2D-4C8E-9A1F3D6B2E8C0504"
+							componentimage="A7C40E11-5B2D-4C8E-9A1F3D6B2E8C0502"
+							width="22"
+							height="22"/>
+					</imagemetrics>
+				</newstate>
+			</states>
+		</root>
+	</components>
+</layout>

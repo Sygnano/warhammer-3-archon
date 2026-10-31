@@ -1,0 +1,59 @@
+[b]THIS IS AN UNOFFICIAL MOD. IT IS NOT MADE OR SUPPORTED BY CREATIVE ASSEMBLY, SEGA OR GAMES WORKSHOP. THIS MOD MODIFIES THE GAME'S MEMORY AND UNPACKS A DLL NEXT TO THE GAME IN ORDER TO WORK. MODIFYING THE GAME'S CODE IN MEMORY MAY GO AGAINST THE GAME'S TERMS OF USE. THE DLL IS NOT DIGITALLY SIGNED, SO ANTIVIRUS SOFTWARE OR WINDOWS SMART APP CONTROL MAY BLOCK IT. GAME UPDATES CAN BREAK THIS MOD. ANYTHING CAN BREAK THIS MOD. USE AT YOUR OWN RISK. SOURCE CODE AVAILABLE BELOW. THIS SHOULD WORK FINE THOUGH.[/b]
+
+[h1]Archon Mode[/h1]
+Play a campaign united as one faction with two or more players. No more one faction per player!
+
+[h2]Why do it[/h2]
+[list]
+[*]You want to show your friends the ropes of the game while also playing yourself. You can show them within the same faction!
+[*]You want to do a co-op campaign but you don't like having multiple factions. Only one faction that way!
+[*]You think the games are too sluggish in MP, because it means multiplying the battles. One faction, one time the battles!
+[*]You think you know better than your friends, who would never handle a faction properly. Show them how it's done!
+[*]A 2v2 battle means 4 factions when it should only be 2. This way, you can duke it out with only one faction on each side! (Four players on two factions is untested.)
+[*]And more! It's just a tool, find your own ideas, damn it!
+[/list]
+
+[h2]How to start[/h2]
+[olist]
+[*]Both players subscribe, enable the mod and restart the game. You must both run the same version: the game warns you when the campaign starts if you don't.
+[*]Host a multiplayer campaign. A small label at the top left of the lobby should say [b]PATCHED A+B+C+E[/b].
+[*]Both players pick the same faction and press Ready.
+[/olist]
+
+[h2]How it works[/h2]
+Archon integrates seamlessly with your standard MP experience. Play as before and leave it sleeping in case you need it. When you do, simply pick the same faction as your partner. This time, instead of blocking you, the game lets you both Ready up!
+
+Everything in the faction is shared between you: research, unit movement, diplomacy, buildings. It's like you were playing the game on the other side. The interface and camera are independent, so you can focus on your own stuff while your partner does something else!
+
+When someone starts a battle, you'll both be prompted to choose what to do. First pick wins, so decide your course of action together beforehand. You will also both be prompted for decisions that come up, such as what to do with a captured settlement. Same deal here: first pick wins.
+
+In a battle, you both have access to the entire army. As in a battle with a main and a supporting player, you have the option on the bottom left to "gift" units. If you gift a unit to your partner, you won't be able to command it anymore, like a standard gift. You can still regain access by pressing the cross on the unit. You can also gift a unit to yourself to lock your partner out of it. They can press the cross too to regain access. That way you can avoid both controlling the same thing.
+
+When ending the turn, you'll have to wait until your partner also ends the turn to proceed. Press End Turn again to cancel.
+
+[h2]Good to know[/h2]
+[list]
+[*]Tested with two players on two PCs, on game version 9.0.4, in Immortal Empires. More than two players on one faction is designed for but untested. Other campaigns are untested.
+[*]Windows with Steam only. Linux and Proton are untested.
+[*]The "unassigned units" style end-turn warning only appears for the last player to press End Turn.
+[*]Summoned units in battle are untested with gifting.
+[*]Reloading a save that has two players on one faction needs the mod enabled. If needed, use the Select Race dropdown in the lobby to go back to the shared faction.
+[*]In single player and in normal multiplayer sessions the mod stays out of the way.
+[/list]
+
+[h2]If something goes wrong[/h2]
+The lobby label tells you what state the mod is in:
+[list]
+[*][b]DLL NOT LOADED:[/b] the DLL was blocked or could not be written. Check your antivirus, Smart App Control, and that no second copy of the game is open.
+[*][b]UNSUPPORTED:[/b] a game update changed the code the lobby patches need. Wait for a mod update.
+[*][b]UNTESTED GAME VERSION:[/b] the game was updated since the mod was tested. It may still work, but it can also crash or desync, so keep backups of saves you care about.
+[/list]
+If your partner leaves the campaign, the game shows its usual "game will be aborted" message. This is expected: you keep the faction and carry on. A player leaving during a battle cancels the battle.
+
+When you report a bug, please say what happened and include [b]archon_mode_log.txt[/b] and [b]archon_native_log.txt[/b] from both PCs. They are in the game's install folder, or in its [b]twmm[/b] subfolder if you start the game from CA's new mod manager.
+
+[h2]Uninstalling[/h2]
+Unsubscribe, then delete the [b]archon_native_*.dll[/b] files and the [b]archon_*_log.txt[/b] files from the same folder.
+
+[h2]Source code[/h2]
+If you're wary about what this mod does with an unsigned DLL, good job, it's good to be on the lookout. Source code available here, MIT licensed: [url=https://github.com/Sygnano/warhammer-3-archon]github.com/Sygnano/warhammer-3-archon[/url]
